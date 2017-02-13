@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/id_call"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="call"/>
+
+        <item
+            android:id="@+id/id_friends"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:title="friends"/>
+
+        <item
+            android:id="@+id/id_location"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="location"/>
+
+        <item
+            android:id="@+id/id_mail"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="mail"/>
+
+        <item
+            android:id="@+id/id_task"
+            android:icon="@android:drawable/ic_menu_day"
+            android:title="task"/>
+
+    </group>
+
+</menu>
