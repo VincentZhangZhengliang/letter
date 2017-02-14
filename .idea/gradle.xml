@@ -11,8 +11,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/database" />
             <option value="$PROJECT_DIR$/io" />
+            <option value="$PROJECT_DIR$/lettersnavigation" />
             <option value="$PROJECT_DIR$/md" />
             <option value="$PROJECT_DIR$/recycleview" />
+            <option value="$PROJECT_DIR$/widget" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/database/database.iml" filepath="$PROJECT_DIR$/database/database.iml" />
       <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lettersnavigation/lettersnavigation.iml" filepath="$PROJECT_DIR$/lettersnavigation/lettersnavigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/md/md.iml" filepath="$PROJECT_DIR$/md/md.iml" />
       <module fileurl="file://$PROJECT_DIR$/recycleview/recycleview.iml" filepath="$PROJECT_DIR$/recycleview/recycleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/widget/widget.iml" filepath="$PROJECT_DIR$/widget/widget.iml" />
     </modules>
   </component>
 </project>

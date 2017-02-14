@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.szxkbl.lettersnavigation.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/id_rl_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape_search"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/id_iv_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_search_black_24dp"/>
+
+        <EditText
+            android:id="@+id/id_et_search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/id_iv_search"
+            android:background="@null"
+            android:hint="请输入联系人"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textCursorDrawable="@drawable/cursor"/>
+
+        <ImageView
+            android:id="@+id/id_iv_search_clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_close_black_24dp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_rl_search">
+
+        <ListView
+            android:id="@+id/id_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"/>
+
+        <TextView
+            android:id="@+id/id_tv_toast"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:alpha="0.5"
+            android:background="@drawable/shape_toast"
+            android:gravity="center"
+            android:textColor="@color/color_55caca"
+            android:textSize="40sp"
+            android:visibility="gone"/>
+
+        <com.szxkbl.lettersnavigation.LettersView
+            android:id="@+id/id_letter_view"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>
